@@ -22,7 +22,7 @@ const Services = () => {
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4">
           <div class="max-w-sm p-6 border border-gray-200 rounded-lg shadow dark:border-gray-700 group overflow-hidden transition-all duration-1000 mx-auto hover:border-white">
             <FaAward className=" text-5xl text-gray-400  mb-3" />
-            <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
+            <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-400 dark:text-white">
               Award Winning
             </h5>
 
@@ -35,7 +35,7 @@ const Services = () => {
           <div class="max-w-sm p-6 border border-gray-200 rounded-lg shadow dark:border-gray-700 group overflow-hidden transition-all duration-500 mx-auto hover:border-white">
             <FaPeopleGroup className=" text-5xl text-gray-400  mb-3" />
 
-            <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
+            <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-400 dark:text-white">
               Professional Staff
             </h5>
 
@@ -48,7 +48,7 @@ const Services = () => {
           <div class="max-w-sm p-6 border border-gray-200 rounded-lg shadow dark:border-gray-700 group overflow-hidden transition-all duration-1000 mx-auto hover:border-white">
             <FiMonitor className=" text-5xl text-gray-400  mb-3" />
 
-            <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
+            <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-400 dark:text-white">
               Web Development
             </h5>
 
@@ -61,7 +61,7 @@ const Services = () => {
           <div class="max-w-sm p-6 border border-gray-200 rounded-lg shadow dark:border-gray-700 group overflow-hidden transition-all duration-1000 mx-auto hover:border-white">
             <MdSupportAgent className=" text-5xl text-gray-400  mb-3" />
 
-            <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
+            <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-400 dark:text-white">
               24X7 Support
             </h5>
 

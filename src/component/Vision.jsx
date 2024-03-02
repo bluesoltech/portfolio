@@ -51,7 +51,7 @@ const Vision = (index) => {
                         viewport={{ once: true }}
                     >
                         {/* Left side content */}
-                        <div className='w-full sm:w-[550px] p-4 sm:p-10'>
+                        <div className='w-full sm:w-[550px] p-4 sm:p-10 items-center'>
                             <h1 className='text-2xl sm:text-4xl font-bold mb-4 text-black-600'>
                                 Our Mission
                             </h1>

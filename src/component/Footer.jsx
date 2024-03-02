@@ -15,16 +15,16 @@ const Footer = () => {
         <div className="lg:w-1/3 flex justify-start">
           <a rel="noopener noreferrer" href="/">
             <div className="flex items-center justify-center rounded-full">
-              <img className="w-10" src={logo} />
+              <img className="w-[120px]" src={logo} />
             </div>
           </a>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 text-sm gap-3 lg:w-2/3">
           <div className="space-y-3">
-            <h3 className="tracki uppercase dark:text-gray-800 font-bold inline-block">
-              OUR SERVICES:
+            <h3 className="tracki uppercase dark:text-gray-800 text-[17px] font-bold inline-block">
+              OUR SERVICES
             </h3>
-            <ul className="space-y-1">
+            <ul className="space-y-3">
               <li className="p-1 transition-all duration-300 hover:text-blue-800 text-base">
                 <Link to="/services/cyber">Cyber Security</Link>
               </li>
@@ -48,62 +48,64 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="space-y-3">
-            <h3 className="tracki uppercase dark:text-gray-800 font-bold inline-block">
-              CONTACT INFO:
+          <div className="space-y-6">
+            <h3 className="tracki uppercase dark:text-gray-800 text-[17px] font-bold inline-block">
+              CONTACT INFO
             </h3>
             <ul className="space-y-1">
               <li className="p-1 transition-all duration-300 hover:text-blue-800 text-base">
-                <a rel="" href="#">
+                <a rel="" href="tel:92746 82710">
                   +91 92746 82710
                 </a>
               </li>
               <li className="p-1 transition-all duration-300 hover:text-blue-800 text-base">
-                <a rel="" href="#">
-                  ask@bluesoltech.in
+
+                <a className="text-indigo-500 cursor-pointer" href="mailto:info@bluesoltech.com ?">
+                  info@bluesoltech.com
                 </a>
               </li>
               <li className="p-1 transition-all duration-300 hover:text-blue-800 text-base">
-                <a rel="" href="#">
+                <a rel="" href="https://maps.app.goo.gl/KXDqPFBpxQz7us5p7">
                   102, Solaris Business Hub, Opp. The National Higher Secondary
                   School, Bhuyangdev, Ahmedabad, Gujarat 380013.
                 </a>
               </li>
             </ul>
           </div>
-          <div className="space-y-3">
-            <h3 className="tracki uppercase dark:text-gray-800 font-bold inline-block">
-              Social media:
+          <div className="space-y-6">
+            <h3 className="tracki uppercase dark:text-gray-800 text-[17px] font-bold inline-block">
+              Join us on social media
             </h3>
             <div className="flex justify-start space-x-3">
+              <Link to="https://www.instagram.com/bluesoltech.__/"></Link>
               <a
                 rel=""
-                href="#"
-                title="Facebook"
+                href="https://twitter.com/bluesoltech__ ?"
+                title="Twitter"
                 className="flex items-center p-1"
               >
                 <TiSocialTwitter className="text-2xl" />
               </a>
               <a
                 rel=""
-                href="#"
-                title="Twitter"
+                href="https://www.youtube.com/@BlueSoltech ?"
+                title="Youtube"
                 className="flex items-center p-1"
               >
                 <TiSocialYoutube className="text-2xl" />
               </a>
               <a
                 rel=""
-                href="#"
-                title="Instagram"
+                href="https://www.linkedin.com/company/bluesoltech ?"
+                title="Linkedin"
                 className="flex items-center p-1"
               >
                 <TiSocialLinkedin className="text-2xl" />
               </a>
               <a
                 rel=""
-                href="#"
-                title="Youtube"
+                href="https://www.instagram.com/bluesoltech.__/ ?"
+                title="Instagram"
                 className="flex items-center p-1"
               >
                 <TiSocialInstagram className="text-2xl" />

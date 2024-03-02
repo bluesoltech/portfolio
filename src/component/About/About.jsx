@@ -35,9 +35,9 @@ function Item({ title, content }) {
 export default function About() {
   return (
     <div className="relative grid md:grid-cols-2 py-8 md:py-2">
-      <p className="absolute w-full text-gray-500 text-center md:top-[46%] text-3xl md:text-6xl">
+      <div className="absolute w-full text-gray-400 text-center md:top-[46%] text-3xl md:text-7xl ">
         About Us
-      </p>
+      </div>
       <Item
         title="Our Mission"
         content="At Blue Soltech, we always strive to build a better business atmosphere through giving out excellent deliveries. The sole of our mission lies in creating amazing, powerful and premium quality products to serve you better."

@@ -31,23 +31,23 @@ const Service = ({ data }) => {
         {data.plans.map((plan, index) => (
           <div
             key={index}
-            className="relative p-5 bg-black w-full xl:w-[300px] h-full m-2 mx-auto rounded-lg flex flex-col xl:h-[400px] overflow-scroll"
+            className="relative p-5 bg-black w-full xl:w-[300px] h-full m-2 mx-auto rounded-lg flex flex-col xl:h-[400px] "
           >
             <div className="sticky top-0 h-[50px] rounded-t-md flex items-center justify-between">
-              <p className="text-white text-center font-semibold text-lg uppercase">
+              <p className="text-gray-300 text-center font-semibold text-lg uppercase">
                 {plan.plan_title}
               </p>
-              <div className="p-2 bg-white flex items-center justify-center w-[50px] h-[50px] text-9xl z-[999] rounded-[50%] aspect-square">
+              <div className="p-2 bg-gray-300 flex items-center justify-center w-fit h-fit p-2 text-9xl z-[999] rounded-[50%] aspect-square">
                 <p className="text-gray-500 text-sm">
                   {country == "India" ? plan.plan_price_inr : plan.plan_price}
                 </p>
               </div>
             </div>
-            <div className="p-6 flex flex-col justify-evenly flex-grow">
+            <div className="p-6 flex flex-col justify-evenly flex-grow overflow-scroll">
               <p className="text-gray-300 text-lg font-light leading-7 text-center my-4">
                 {plan.plan_headline}
               </p>
-              <ul className="list-decimal list-inside mx-1">
+              <ul className="list-decimal list-inside mx-1 ">
                 {plan.key.map((service, i) => {
                   return (
                     <li key={i} className="my-1.5 text-gray-500 text-sm">
