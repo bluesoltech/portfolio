@@ -11,9 +11,9 @@ function Item({ title, content }) {
 
   return (
     <section id="about_page">
-      <div ref={ref}>
-        <h1 className="w-full text-white text-center text-2xl">{title}</h1>
-        <figure className="progress">
+      <div className="h-fit py-5 px-2 text-white hover:text-black" ref={ref}>
+        <h1 className="w-full  text-center text-2xl ">{title}</h1>
+        <figure className="absolute progress">
           <svg id="progress" width="75" height="75" viewBox="0 0 100 100">
             <circle cx="50" cy="50" r="30" pathLength="1" className="bg" />
             <motion.circle
@@ -26,7 +26,7 @@ function Item({ title, content }) {
             />
           </svg>
         </figure>
-        <p className="text-gray-500 text-[11px] text-justify p-2">{content}</p>
+        <p className="text-gray-500 text-[11px] text-justify p-2 ">{content}</p>
       </div>
     </section>
   );

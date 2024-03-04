@@ -41,7 +41,7 @@ const Home = () => {
               <p className="text-2xl text-center md:text-3xl md:text-start lg:text-5xl text-white p-2 transition-all duration-300 hover:rotate-[-2deg]">
                 Solution to your digital Problems
               </p>
-              <p className="text-sm text-center text-gray-500 py-4 w-full md:text-xl md:text-start md:flex md:justify-start transition-all duration-300 hover:rotate-[-2deg]">
+              <p className="text-sm text-center text-gray-500 py-4 w-full md:text-[25px] md:text-start md:flex md:justify-start transition-all duration-300 hover:rotate-[-2deg]">
                 10 YEARS OF EXPERIENCE IN OUTSOURCING
               </p>
             </div>
@@ -64,7 +64,7 @@ const Home = () => {
           }}
           className={
             card == "1"
-              ? "hover:bg-white hover:text-black text-white cursor-pointer w-full h-auto md:w-[500px] md:h-[480px] lg:h-[400px] border-[1px] border-white rounded transition-all duration-300"
+              ? "hover:bg-white hover:text-black text-white cursor-pointer w-full h-auto md:w-[500px] md:h-[480px] lg:h-[400px] border-[1px] border-white rounded transition-all duration-300 "
               : "hover:bg-white hover:text-black text-white cursor-pointer w-full h-auto md:w-[100px] md:h-[480px] lg:h-[400px] border-[1px] border-white rounded transition-all duration-1000"
           }
         >
@@ -74,7 +74,7 @@ const Home = () => {
               className="flex flex-col h-full justify-between items-center p-3"
             >
               <div>
-                <h1 id="1" className="text-3xl mb-3">
+                <h1 id="1" className="text-3xl  mb-3 xl:mt-5">
                   Cyber Security
                 </h1>
                 <p id="1" className="text-md  text-gray-500">
@@ -123,7 +123,7 @@ const Home = () => {
               className="flex flex-col h-full justify-between items-center p-3"
             >
               <div>
-                <h1 id="2" className="text-3xl  mb-3">
+                <h1 id="2" className="text-3xl  mb-3 xl:mt-5">
                   Web Development
                 </h1>
                 <p id="2" className="text-md  text-gray-500">
@@ -172,7 +172,7 @@ const Home = () => {
               className="flex flex-col h-full justify-between items-center p-3"
             >
               <div>
-                <h1 id="3" className="text-3xl mb-3">
+                <h1 id="3" className="text-3xl mb-3 xl:mt-5">
                   App Development
                 </h1>
                 <p id="3" className="text-md  text-gray-500">
@@ -230,7 +230,7 @@ const Home = () => {
                 className="flex flex-col h-full justify-between items-center p-3"
               >
                 <div>
-                  <h1 id="4" className="text-3xl  mb-3">
+                  <h1 id="4" className="text-3xl  mb-3 xl:mt-5">
                     Data Analytics
                   </h1>
                   <p id="4" className="text-md  text-gray-500">
@@ -282,7 +282,7 @@ const Home = () => {
                 className="flex flex-col h-full justify-between items-center p-3"
               >
                 <div>
-                  <h1 id="6" className="text-3xl  mb-3">
+                  <h1 id="6" className="text-3xl  mb-3 xl:mt-5">
                     SEO optimization
                   </h1>
                   <p id="6" className="text-md  text-gray-500">
@@ -335,7 +335,7 @@ const Home = () => {
                 className="flex flex-col h-full justify-between items-center p-3"
               >
                 <div>
-                  <h1 id="7" className="text-3xl mb-3">
+                  <h1 id="7" className="text-3xl mb-3 xl:mt-5">
                     Graphic Design
                   </h1>
                   <p id="7" className="text-md  text-gray-500">
