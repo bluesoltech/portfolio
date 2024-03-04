@@ -59,7 +59,7 @@ const Servicestype = (index) => {
                 networks, and data from theft, damage, unauthorized access, or
                 other cyber threats. As technology continues to advance, the
                 importance of cybersecurity has grown exponentially. Here are
-                key aspects of cybersecurity
+                key aspects of cybersecurity.
               </p>
               <Link to="/services/cyber">
                 <button className="my-4 bg-blue-500 px-3 py-1 rounded hover:bg-blue-700">

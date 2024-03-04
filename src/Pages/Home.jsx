@@ -87,7 +87,7 @@ const Home = () => {
               </div>
               <div className="w-full flex justify-end">
                 <Link to="/services/cyber">
-                  <button className="bg-gray-200 hover:bg-white p-2 rounded-xl text-black">
+                  <button className="bg-gray-200 hover:bg-black hover:text-white p-2 rounded-xl text-black">
                     Click here
                   </button>
                 </Link>
@@ -136,7 +136,7 @@ const Home = () => {
               </div>
               <div className="w-full flex justify-end">
                 <Link to="/services/web">
-                  <button className="bg-gray-200 hover:bg-white p-2 rounded-xl text-black">
+                  <button className="bg-gray-200 hover:bg-black hover:text-white p-2 rounded-xl text-black">
                     Click here
                   </button>
                 </Link>
@@ -183,7 +183,7 @@ const Home = () => {
               </div>
               <div className="w-full flex justify-end">
                 <Link to="/services/app">
-                  <button className="bg-gray-200 hover:bg-white p-2 rounded-xl text-black">
+                  <button className="bg-gray-200 hover:bg-black hover:text-white p-2 rounded-xl text-black">
                     Click here
                   </button>
                 </Link>
@@ -243,7 +243,7 @@ const Home = () => {
                 </div>
                 <div className="w-full flex justify-end">
                   <Link to="/services/data">
-                    <button className="bg-gray-200 hover:bg-white p-2 rounded-xl text-black">
+                    <button className="bg-gray-200 hover:bg-black hover:text-white p-2 rounded-xl text-black">
                       Click here
                     </button>
                   </Link>
@@ -297,7 +297,7 @@ const Home = () => {
                 </div>
                 <div className="w-full flex justify-end">
                   <Link to="/services/seo">
-                    <button className="bg-gray-200 hover:bg-white p-2 rounded-xl text-black">
+                    <button className="bg-gray-200 hover:bg-black hover:text-white p-2 rounded-xl text-black">
                       Click here
                     </button>
                   </Link>
@@ -349,7 +349,7 @@ const Home = () => {
                 </div>
                 <div className="w-full flex justify-end">
                   <Link to="/services/graphic">
-                    <button className="bg-gray-200 hover:bg-white p-2 rounded-xl text-black">
+                    <button className="bg-gray-200 hover:bg-black hover:text-white p-2 rounded-xl text-black">
                       Click here
                     </button>
                   </Link>
