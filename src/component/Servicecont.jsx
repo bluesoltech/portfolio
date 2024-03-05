@@ -22,7 +22,7 @@ const Servicecont = (index) => {
           viewport={{ once: true }}
         >
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-center text-gray-600 text-white">
-            Change the way to NewIT Services
+            Change the way to New   IT Services
           </h1>
 
           <p className="text-gray-500 text-lg text-center  mb-11">
