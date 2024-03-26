@@ -2,6 +2,9 @@ import React from "react";
 import Service from "../../component/Service/Service";
 import seoimg from "../../assets/service/seo.png";
 import seoimg2 from "../../assets/service/seo2.png";
+// import TopTitle from "../TopTitle";
+import apppdf from "../../assets/quote/app.pdf"
+
 
 const data = {
   title: "SEO Optimization",
@@ -169,7 +172,10 @@ const data = {
 };
 
 function SeoOptimization() {
-  return <Service data={data} />;
+  return <>
+  {/* <TopTitle /> */}
+  <Service data={data} pdf={apppdf}/>
+  </>
 }
 
 export default SeoOptimization;

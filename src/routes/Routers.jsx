@@ -29,6 +29,7 @@ const Routers = () => {
       <Route path="/services/seo" element={<SeoOptimization />} />
       <Route path="/services/smma" element={<SocialMediaManagement />} />
       <Route path="/services/graphic" element={<GraphicDesign />} />
+      <Route path="/services/socialmedia" element={<SocialMediaManagement />} />
     </Routes>
   );
 };

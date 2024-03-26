@@ -2,6 +2,8 @@ import React from "react";
 import Service from "../../component/Service/Service";
 import app from "../../assets/service/app.png";
 import app2 from "../../assets/service/app2.png";
+// import TopTitle from "../TopTitle";
+import apppdf from "../../assets/quote/app.pdf"
 
 const data = {
   title: "App Development",
@@ -122,7 +124,10 @@ const data = {
 };
 
 function AppDevelopment() {
-  return <Service data={data} />;
+  return <>
+    {/* <TopTitle /> */}
+    <Service data={data} pdf={apppdf}/>
+  </>
 }
 
 export default AppDevelopment;

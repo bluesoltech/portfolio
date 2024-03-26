@@ -2,6 +2,9 @@ import React from "react";
 import Service from "../../component/Service/Service";
 import cyber from "../../assets/service/cyber.png";
 import cyber2 from "../../assets/service/cyber2.png";
+// import TopTitle from "../TopTitle";
+import apppdf from "../../assets/quote/app.pdf"
+
 
 const data = {
   title: "Cyber Security",
@@ -38,7 +41,10 @@ const data = {
 };
 
 function CyberSecurity() {
-  return <Service data={data} />;
+  return <>
+    {/* <TopTitle /> */}
+    <Service data={data} pdf={apppdf}/>
+  </>
 }
 
 export default CyberSecurity;

@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
-import { IoIosPricetag } from "react-icons/io";
 import axios from "axios";
+// import { IoIosPricetag } from "react-icons/io";
 // import TypesOfServices from "../../component/TypesOfServices";
 // import img3 from "../../assets/img/human-brain-detailed-structure.jpg";
 // import Packages from "../../component/Packages";
 // import services from "../../assets/data/Service.js";
 
-const Service = ({ data }) => {
+const Service = ({ data, pdf }) => {
   //   const gridlength = "grid-cols-" + service.packagesData.length;
   const [country, setCountry] = useState("");
   const getGeoInfo = () => {
@@ -47,7 +47,7 @@ const Service = ({ data }) => {
               <p className="text-gray-300 text-lg font-light leading-7 text-center">
                 {plan.plan_headline}
               </p>
-              <ul className="list-decimal list-inside mx-1 h-full">
+              <ul className="list-none list-inside mx-1 h-full">
                 {plan.key.map((service, i) => {
                   return (
                     <li key={i} className="my-1.5 text-gray-500 text-sm">
@@ -64,6 +64,9 @@ const Service = ({ data }) => {
   };
   return (
     <div className="bg-[#0F0E0E] p-2">
+      <button className="fixed bg-blue-500 hover:bg-blue-700 right-10 bottom-10 text-white px-5 py-2 rounded-xl">
+        <a href={pdf} download="Bluesoltech-App Development.pdf">Get Quote</a>
+      </button>
       <div className=" flex flex-col gap-10 items-center justify-evenly bg-[#0F0E0E] text-white">
         <div className="h-fit lg:w-[50%] flex flex-col gap-[50px]">
           <div className="w-full flex justify-center items-center text-center">

@@ -68,7 +68,7 @@ const Footer = () => {
               <li className="p-1 transition-all duration-300 hover:text-blue-800 text-base">
                 <a rel="" href="https://maps.app.goo.gl/KXDqPFBpxQz7us5p7">
                   102, Solaris Business Hub, Opp. The National Higher Secondary
-                  School, Bhuyangdev, Ahmedabad, Gujarat 380013.
+                  School, Bhuyangdev, Ahmedabad, Gujarat 380063
                 </a>
               </li>
             </ul>

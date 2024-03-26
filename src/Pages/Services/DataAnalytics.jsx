@@ -2,6 +2,8 @@ import React from "react";
 import Service from "../../component/Service/Service";
 import dataimg from "../../assets/service/data.png";
 import dataimg2 from "../../assets/service/data2.png";
+// import TopTitle from "../TopTitle";
+import apppdf from "../../assets/quote/app.pdf"
 
 const data = {
   title: "Data Analytics",
@@ -38,7 +40,11 @@ const data = {
 };
 
 function DataAnalytics() {
-  return <Service data={data} />;
+  return <>
+    {/* <TopTitle /> */}
+    <Service data={data} pdf={apppdf}/>
+  </>
+
 }
 
 export default DataAnalytics;

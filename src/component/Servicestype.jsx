@@ -407,7 +407,76 @@ const Servicestype = (index) => {
                 </button>
               </Link>
             </div>
+
           </motion.div>
+
+        </div>
+        <div className="flex flex-col mt-3 sm:flex-row">
+
+          {/* Right side image */}
+          <motion.div
+            className="card"
+            initial={{
+              opacity: 0,
+              // if odd index card, slide from right instead of left
+              x: index % 2 === 0 ? -50 : 50,
+            }}
+            whileInView={{
+              opacity: 1,
+              x: 0, // Slide in to its original position
+              transition: {
+                duration: 1, // Animation duration
+              },
+            }}
+            viewport={{ once: true }}
+          >
+            <div className="w-full sm:w-[550px] p-4 sm:p-10">
+              <h1 className="text-2xl sm:text-4xl font-bold mb-4 text-black-600">
+                Social Media Management
+              </h1>
+              <p className="text-gray-500">
+                Social Media Management is a creative process that involves visual
+                communication and the use of visual elements to convey a
+                message, tell a story, or present information. Social Media Management
+                use a combination of images, typography, color, and layout
+                techniques to create visually appealing and effective designs.
+                Here are key aspects of graphic design.
+              </p>{" "}
+              <Link to="/services/socialmedia">
+                <button className="my-4 bg-blue-500 px-3 py-1 rounded hover:bg-blue-700">
+                  Go to page
+                </button>
+              </Link>
+            </div>
+
+          </motion.div>
+          {/* Left side content */}
+
+          <div className="w-full sm:w-1/2 ">
+            <motion.div
+              className="card"
+              initial={{
+                opacity: 0,
+                // if odd index card, slide from right instead of left
+                x: index % 2 === 0 ? 50 : -50,
+              }}
+              whileInView={{
+                opacity: 1,
+                x: 0, // Slide in to its original position
+                transition: {
+                  duration: 1, // Animation duration
+                },
+              }}
+              viewport={{ once: true }}
+            >
+              <img
+                className="w-[320px] object-cover"
+                src={img6}
+                alt="Right Side Image"
+              />
+            </motion.div>
+          </div>
+
         </div>
       </div>
     </>
