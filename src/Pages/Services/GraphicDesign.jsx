@@ -47,8 +47,8 @@ const data = {
   plans: [
     {
       plan_title: "Basic",
-      plan_price: "$50",
-      plan_price_inr: "₹3999",
+      plan_price: "$2560",
+      plan_price_inr: "₹5999",
       plan_headline: "Suitable for Freelancer",
       key: [
         "Research -> Concept -> Review -> Finalize",
@@ -72,7 +72,7 @@ const data = {
     },
     {
       plan_title: "Standard",
-      plan_price: "$500",
+      plan_price: "$4160",
       plan_price_inr: "₹9999",
       plan_headline: "Suitable for Small-Sized Organizations",
       key: [
@@ -103,7 +103,7 @@ const data = {
     },
     {
       plan_title: "Advanced",
-      plan_price: "$200",
+      plan_price: "$10000",
       plan_price_inr: "₹19,999",
       plan_headline: "Suitable for Medium-Sized Organizations",
       key: [
@@ -133,40 +133,6 @@ const data = {
         "After Service Support",
       ],
     },
-    // {
-    //   plan_title: "Leading",
-    //   plan_price: "$1000",
-    //   plan_price_inr: "₹80000",
-    //   plan_headline: "Suitable for Enterprises",
-    //   key: [
-    //     "Research -> Concept -> Review -> Finalize",
-    //     "Get 20 Modern Logo Concepts to Choose From",
-    //     "Included 10 Dedicated Designer",
-    //     "Design any Type of Logo",
-    //     "Advanced Branding Research",
-    //     "Logo Transparency",
-    //     "Free 3D Mockup",
-    //     "Professional Fonts and Color Codes",
-    //     "Scalable to Any Size Logo (Website, App, Favicon)",
-    //     "Horizontal & Vertical Versions",
-    //     "Logo Usage Guidelines",
-    //     "Included Animated Logo",
-    //     "Delivering High-Resolution Logo",
-    //     "Included Social Media Kit Design",
-    //     "Included 2 Stationery Design",
-    //     "Design in Languages: EN, DE, AR, ES & others",
-    //     "Unlimited Revisions",
-    //     "Print & Digital Format: AI, EPS, SVG, PDF, JPG, PNG (Recommended Format)",
-    //     "Delivery Time 3-5 Days",
-    //     "Full Copyright Transfer",
-    //     "No Hidden Charges",
-    //     "Money Back Guarantee",
-    //     "Client Satisfaction Guaranteed",
-    //     "1 Year File Backup",
-    //     "24X7 Customer Support",
-    //     "After Service Support",
-    //   ],
-    // },
   ],
 };
 

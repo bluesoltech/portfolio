@@ -18,9 +18,9 @@ const data = {
   plans: [
     {
       plan_title: "Startup Plan",
-      plan_price: "₹5999",
-      plan_price_inr: "₹5999",
-      plan_headline: "Suitable for Creating Online Presence",
+      plan_price: "$1860",
+      plan_price_inr: "₹3999",
+      plan_headline: "",
       key: [
         "100% Responsive Design",
         "No. of Pages - Up to 5",
@@ -38,9 +38,9 @@ const data = {
     },
     {
       plan_title: "Basic",
-      plan_price: "₹11,999",
+      plan_price: "$235",
       plan_price_inr: "₹11999",
-      plan_headline: "Suitable for Small-Sized Organizations",
+      plan_headline: "",
       key: [
         "100% Responsive Design",
         "No. of Pages - Up to 8",
@@ -65,9 +65,9 @@ const data = {
     },
     {
       plan_title: "Standard",
-      plan_price: "$535",
+      plan_price: "$355",
       plan_price_inr: "₹29,999",
-      plan_headline: "Suitable for Enterprises",
+      plan_headline: "",
       key: [
         "100% Responsive Design",
         "No. of Pages - Up to 15",
@@ -95,9 +95,9 @@ const data = {
     },
     {
       plan_title: "Advance",
-      plan_price: "₹49,999",
+      plan_price: "$535",
       plan_price_inr: "₹49,999",
-      plan_headline: "Suitable for Medium-Sized Organizations",
+      plan_headline: "",
       key: [
         "100% Responsive Design",
         "No. of Pages - Up to 25",
