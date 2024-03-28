@@ -1,7 +1,7 @@
 import React from "react";
 import Service from "../../component/Service/Service";
 import social1 from "../../assets/service/social1.png";
-import social2 from "../../assets/service/social2.png";
+import social2 from "../../assets/service/Social2.png";
 // import TopTitle from "../TopTitle";
 import apppdf from "../../assets/quote/app.pdf"
 
