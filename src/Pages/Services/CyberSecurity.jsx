@@ -43,7 +43,7 @@ const data = {
 function CyberSecurity() {
   return <>
     {/* <TopTitle /> */}
-    <Service data={data} pdf={apppdf}/>
+    <Service disabled data={data} pdf={apppdf} pdfname="Bluesoltech-WebDevelopment-Quote"/>
   </>
 }
 

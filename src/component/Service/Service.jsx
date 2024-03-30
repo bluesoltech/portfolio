@@ -6,7 +6,7 @@ import axios from "axios";
 // import Packages from "../../component/Packages";
 // import services from "../../assets/data/Service.js";
 
-const Service = ({ data, pdf }) => {
+const Service = ({ data, pdf ,pdfname, disabled=false }) => {
   //   const gridlength = "grid-cols-" + service.packagesData.length;
   const [country, setCountry] = useState("");
   const getGeoInfo = () => {
@@ -64,9 +64,9 @@ const Service = ({ data, pdf }) => {
   };
   return (
     <div className="bg-[#0F0E0E] p-2">
-      <button className="fixed bg-blue-500 hover:bg-blue-700 right-10 bottom-10 text-white px-5 py-2 rounded-xl">
-        <a href={pdf} download="Bluesoltech-App Development.pdf">Get Quote</a>
-      </button>
+      {!disabled && <button className="fixed bg-blue-500 hover:bg-blue-700 right-10 bottom-10 text-white px-5 py-2 rounded-xl">
+        <a href={pdf} download={pdfname}>Get Quote</a>
+      </button>}
       <div className=" flex flex-col gap-10 items-center justify-evenly bg-[#0F0E0E] text-white">
         <div className="h-fit lg:w-[50%] flex flex-col gap-[50px]">
           <div className="w-full flex justify-center items-center text-center">

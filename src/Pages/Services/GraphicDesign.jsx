@@ -139,7 +139,7 @@ const data = {
 function GraphicDesign() {
   return<>
     {/* <TopTitle /> */}
-    <Service data={data} pdf={apppdf}/>
+    <Service data={data} pdf={apppdf} pdfname="Bluesoltech-GraphicDesing-Quote"/>
   </>
 
 }

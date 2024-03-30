@@ -127,11 +127,11 @@ const data = {
   ],
 };
 
-function WebDevelopment() {
+function SocialMediaManagement() {
   return <>
     {/* <TopTitle /> */}
-    <Service data={data} pdf={apppdf} />
+    <Service data={data} pdf={apppdf} pdfname="Bluesoltech-SocialMediaManagement-Quote"/>
   </>
 }
 
-export default WebDevelopment;
+export default SocialMediaManagement;
