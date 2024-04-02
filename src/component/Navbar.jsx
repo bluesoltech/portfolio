@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Transition } from "@headlessui/react";
 import { Link } from "react-router-dom";
-import logo from "../assets/img/logonew.png";
+import logo from "../assets/img/tmlogo.png";
 import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {

@@ -6,7 +6,7 @@ import {
   TiSocialInstagram,
 } from "react-icons/ti";
 import { Link } from "react-router-dom";
-import logo from "../assets/img/logonew.png";
+import logo from "../assets/img/tmlogo.png";
 import { FaFacebookF, FaPinterestP } from "react-icons/fa";
 
 const Footer = () => {
