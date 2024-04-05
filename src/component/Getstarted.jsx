@@ -154,7 +154,7 @@ const Getstarted = () => {
                         <div className="ml-4">
                             <h3 className="text-xl font-semibold text-white">Email</h3>
                             <p className="text-white mt-2">
-                                bluesoltech@gmail.com
+                                info@bluesoltech.com
                             </p>
                         </div>
                     </div>
